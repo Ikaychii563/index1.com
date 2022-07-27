@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>HOME</title>
+      <link rel="stylesheet" href="nav.css">
+      <link rel="stylesheet" href="home.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+
+<nav>
+    <div class="menu-icon">
+      <span class="fas fa-bars"></span>
+    </div>
+    <div class="logo">
+      <img src="./img/logo.png">
+    </div>
+    <div class="nav-items">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">PORTFOLIO</a></li>
+      <li><a href="#">VIDEO</a></li>
+      <li><a href="#">CONTACTS</a></li>
+    </div>
+</nav>
+ <script>
+      const menuBtn = document.querySelector(".menu-icon span");
+      const items = document.querySelector(".nav-items");
+      menuBtn.onclick = ()=>{
+        items.classList.add("active");
+        menuBtn.classList.add("hide");
+      }
+  </script>
+
+<body>
+  <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+    <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
+  </video>
+  <div class="text">
+    <h1>Always be</h1>
+    <h2>OPEN</h2>
+  </div>
+
+  <div class=""
+  
+
+
+
+
